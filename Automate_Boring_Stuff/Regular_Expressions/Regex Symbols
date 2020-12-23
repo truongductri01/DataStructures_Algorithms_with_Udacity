@@ -1,0 +1,18 @@
+Review of Regex Symbols
+This chapter covered a lot of notation, so here’s a quick review of what you learned about basic regular expression syntax:
+
+1. The ? matches zero or one of the preceding group.
+2. The * matches zero or more of the preceding group.
+3. The + matches one or more of the preceding group.
+4. The {n} matches exactly n of the preceding group.
+5. The {n,} matches n or more of the preceding group.
+6. The {,m} matches 0 to m of the preceding group.
+7. The {n,m} matches at least n and at most m of the preceding group.
+8. {n,m}? or *? or +? performs a non-greedy match of the preceding group.
+9. ^spam means the string must begin with spam.
+10. spam$ means the string must end with spam.
+11. The . matches any character, except newline characters.
+12. \d, \w, and \s match a digit, word, or space character, respectively.
+13. \D, \W, and \S match anything except a digit, word, or space character, respectively.
+14. [abc] matches any character between the brackets (such as a, b, or c).
+15. [^abc] matches any character that isn’t between the brackets.
